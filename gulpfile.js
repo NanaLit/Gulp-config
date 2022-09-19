@@ -62,7 +62,7 @@ gulp.task('icons', function () {
                                 {removeViewBox: true},
                                 {cleanupIDs: false}
                             ]
-                        })
+                        }) 
                     ]))
         .pipe(gulp.dest("dist/icons"))
         .pipe(browserSync.stream());
